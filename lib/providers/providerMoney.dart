@@ -9,4 +9,6 @@ class Amount extends ChangeNotifier {
     savings = savings - amount;
     notifyListeners();
   }
+
+  static toInt() {}
 }
